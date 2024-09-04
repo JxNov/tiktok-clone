@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.scroll-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-scroll-auto:hover {
+  scrollbar-width: auto;
+  -ms-overflow-style: auto;
+}
+
+.hover-scroll-auto:hover::-webkit-scrollbar {
+  display: block;
+}
